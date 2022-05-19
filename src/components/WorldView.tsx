@@ -18,12 +18,14 @@ const optionFourSelect = () => {
 }
 const WorldView = () => {
     return (
-        <div>
+        <div className = "world-body">
             <h1>
                 {worlddata.house.sceneName}
             </h1>
-            <img src={worlddata.house.src} className="scene" alt="" />
+            <br />
+            
                 <div className="container">
+                <img src={worlddata.house.src} className="scene" alt="" />
                     <div id ="text">{worlddata.house.textNode}</div>
                     <div id="option-buttons" className="btn-grid">
                         <button className="btn">{worlddata.house.option1}</button>

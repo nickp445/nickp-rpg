@@ -11,12 +11,12 @@ const CharacterView = observer(
           character.isBeingAttacked ? "enemy-damage" : ""
         } character`}
       >
-        <div>{character.type}</div>
+        
         <img
           className="character-image"
           src={`../characters/${character.type}.png`}
         />
-        
+        <div>{character.type}</div>
         <div>
           Lvl: {character.lvl}
           <div>HP {character.hp} / {character.maxHP}</div>

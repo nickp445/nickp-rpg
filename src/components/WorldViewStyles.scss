@@ -2,28 +2,32 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-family: 'Satisfy', cursive;
-    
 }
-// html {
-//     font-family: 'Roboto', sans-serif;
-//     font-family: 'Satisfy', cursive; 
 // }
+html {
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive; 
+}
 button {
     font-family: 'Roboto', sans-serif;
     font-family: 'Satisfy', cursive;
 }
-body {
+.world-body {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Satisfy', cursive;
+    font-family: "Roboto", sans-serif;
+    font-family: "Satisfy", cursive;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 97vw;
+    height: 97vh;
     background-color: #333;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .container {
     width: 800px;
@@ -33,6 +37,7 @@ body {
     box-shadow: 0 0 10px 2px #000;
     border: 1px solid #000;
     background-color: rgb(145, 144, 144);
+    text-align: center;
 }
 .btn-grid {
     display: grid;
