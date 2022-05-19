@@ -1,0 +1,58 @@
+*, * ::before *::after {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    
+}
+// html {
+//     font-family: 'Roboto', sans-serif;
+//     font-family: 'Satisfy', cursive; 
+// }
+button {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+}
+.container {
+    width: 800px;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #000;
+    border: 1px solid #000;
+    background-color: rgb(145, 144, 144);
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin-top: 15px;
+}
+.btn {
+    background-color: hsl(181, 93%, 18%);
+    border: 2px solid hsl(180, 76%, 16%);
+    box-shadow: 0 0 5px 1px #000;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #fff;
+    outline: none;
+}
+.btn:hover {
+border-color: #000;
+}
+.scene {
+    width: 680px;
+    height: 350px
+}

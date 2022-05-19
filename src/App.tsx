@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import WorldScreen from "./screens/WorldScreen"
 import CharacterSelectScreen from "./screens/CharacterSelectScreen";
 import GameScreen from "./screens/GameScreen";
 import { Game } from "./game/Game";
@@ -10,6 +11,10 @@ export default function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route
+           path="/world"
+           element={<WorldScreen/>}
+          ></Route>  
           <Route
             path="/"
             element={<CharacterSelectScreen game={game} />}
